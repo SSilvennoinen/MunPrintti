@@ -1,0 +1,188 @@
+
+.navbar .nav-link.active {
+  color: #6b0527;        /* korostusväri */
+  font-weight: bold;     /* vähän painoa */
+  text-decoration: underline; /* halutessasi pieni alleviivaus */
+  transition: color 0.3s ease;
+}
+section, div[id] {
+  scroll-margin-top: 80px; /* navin korkeus */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #5a2a4d; /* otsikoiden väri */
+}
+ /* taustan väri */
+ .navbar-custom {
+    background-color: rgba(177, 87, 130, 0.9);
+    
+}
+p {
+  color: #000000;
+}
+
+.navbar-custom .nav-link {
+  color: #f0e6ec;
+}
+.site-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #f8ddea;
+}
+
+.navbar-brand img {
+  border-radius: 50%; /* jos haluat pyöreän logon */
+}
+.carousel-caption h3 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+}
+
+.carousel-caption p {
+  color: #f8ddea;
+  font-style: italic;
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: rgb(83, 41, 69);
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #5e1033;
+}
+
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#demo {
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.carousel-wrapper .carousel-item img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.col-md-4 h5 {
+  font-family: 'Georgia', serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.col-md-4 ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.tilauslomake {
+  background-color: #f8e6ec; /* pehmeä roosa tausta */
+  padding: 2rem;
+  border-radius: 10px;
+  font-family: 'Playfair Display', serif; /* oma fontti */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* kevyt varjo */
+}
+
+.tilauslomake h2 {
+  font-family: 'Playfair Display', serif;
+  color: #5a2a4d; /* tumma luumu otsikoille */
+  
+}
+.tilauslomake h3 {
+  font-family: 'Playfair Display', serif;
+  color: #7a3b5c; /* hieman vaaleampi luumu alaotsikoille */
+  font-size: 1.3rem;
+}
+
+.tilauslomake label, 
+.tilauslomake p {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+footer p {
+  color: #fff; /* valkoinen */
+}
+footer {
+  margin: 0;          /* ei ulkomarginaalia */
+  padding: 0;         /* ei sisämarginaalia */
+  width: 100%;        /* koko sivun leveys */
+  border-radius: 10px; /* pyöristetyt yläkulmat */
+  background-color: rgba(177, 87, 130, 0.9);
+}
+
+footer .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  
+}
+.nav-tabs .nav-link {
+  color: #b15782; /* sama sävy kuin navissa */
+}
+
+.nav-tabs .nav-link.active {
+  color: #fff !important;
+  background-color: #b15782 !important;
+  border-color: #b15782 !important;
+}
+/* Accordionin otsikkopainikkeet */
+.accordion-button {
+  background-color: #b15782;   /* tausta */
+  color: #fff;                 /* teksti */
+}
+
+/* Hover- ja focus-tilat */
+.accordion-button:not(.collapsed) {
+  background-color: #b15782 !important;
+  color: #fff !important;
+  box-shadow: none;
+}
+
+/* Accordionin sisältö */
+.accordion-body {
+  background-color: #f9f9f9;   /* vaalea tausta sisällölle */
+  color: #333;                 /* tumma teksti */
+}
+
+/* Accordionin reunukset */
+.accordion-item {
+  border: 1px solid #b15782;
+}
+/* Desktop-näytöille: lisää korkeutta */
+@media (min-width: 992px) {
+  .carousel-item {
+    height: 90vh;
+  }
+}
